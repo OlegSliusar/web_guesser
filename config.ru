@@ -1,2 +1,2 @@
-require_relative 'web_guesser.rb'
+require File.expand_path('my_app', File.dirname(__FILE__))
 run Sinatra::Application
