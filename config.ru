@@ -1,2 +1,2 @@
-require File.expand_path('my_app', File.dirname(__FILE__))
+require File.expand_path('web_guesser', File.dirname(__FILE__))
 run Sinatra::Application
