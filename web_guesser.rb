@@ -1,5 +1,5 @@
 require 'sinatra'
-
+require 'sinatra/reloader' if development?
 @@secret_number = rand(100) + 1
 @@number_of_guesses = 5
 
