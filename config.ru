@@ -1,2 +1,2 @@
-require '/web_guesser'
+require './web_guesser'
 run Sinatra::Application
